@@ -2,10 +2,54 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 
 body{
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(0, 0, 0);
 }
 
+.article-details{
+    color: rgb(255, 255, 255);
+    margin: auto;
+    width: 200px;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-shadow:
+   -1px -1px 0 #4e2222,  
+    1px -1px 0 #6b3c3c,
+    -1px 1px 0 #be1919,
+     1px 1px 0 #6a1313;
+}
+
+h3{
+    width: 100px;
+    text-shadow:
+   -1px -1px 0 #4e2222,  
+    1px -1px 0 #6b3c3c,
+    -1px 1px 0 #be1919,
+     1px 1px 0 #6a1313;
+}
+
+p{
+    margin-bottom: 10px;
+    width: 100px;
+    text-shadow:
+   -1px -1px 0 #4e2222,  
+    1px -1px 0 #6b3c3c,
+    -1px 1px 0 #be1919,
+     1px 1px 0 #6a1313;
+}
+
+.section-details{
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    
+}

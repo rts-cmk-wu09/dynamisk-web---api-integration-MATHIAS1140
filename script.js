@@ -8,13 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
   .then((data) => {
     let ul = document.querySelector("#destinations");
 
-    data.results.forEach(result => {
+    data.results.forEach(karakter => {
       const li = document.createElement("li");
       ul.append(li);
       li.innerHTML = 
       `
-      <a href="details.html?url=${result.url}">
-      ${result.name}
+        <a href="details.html?url=${karakter.url}">
+      ${karakter.name}
       </a>
       `
     });

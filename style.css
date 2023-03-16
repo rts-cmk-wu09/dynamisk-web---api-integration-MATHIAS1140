@@ -14,7 +14,26 @@ h1 {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
-  text-shadow: 0px 5px 10px grey;
+  text-shadow:
+   -1px -1px 0 #4e2222,  
+    1px -1px 0 #6b3c3c,
+    -1px 1px 0 #be1919,
+     1px 1px 0 #6a1313;
+}
+
+.section{
+  border: 1px solid rgb(245, 226, 55);
+  border-radius: 8px;
+  margin-bottom: 50px;
+  text-shadow:
+   -1px -1px 0 #4e2222,  
+    1px -1px 0 #6b3c3c,
+    -1px 1px 0 #be1919,
+     1px 1px 0 #6a1313;
+     width: 50%;
+     margin: auto;
+     padding-top: 30px;
+     padding-bottom: 30px;
 }
 
 ul {
